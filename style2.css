@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 10px;
+    background-color: teal;
+}
+
+table {
+     width: 100%;
+}
+
+.table {
+    background-color: white;
+}
+
+
+.cell {
+    background-color: rgb(6, 33, 59);
+    text-align: right;
+    color: white;
+}
+
+.tab {
+    width: 50%;
+}
+
+a {
+    display: inline-block;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.div-table {
+    border: 5px solid rgb(255, 255, 255);
+    width: 100%;
+    min-height: 200px;   
+    display: flex; 
+}
+
+.div-column {
+    display: flex;
+    flex-wrap: wrap;
+
+    border: 1px solid rgb(255, 255, 255);
+    width: 50%;
+  
+}
+
+.div-cell {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    color: white;
+    padding: 5px;
+
+
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(6, 33, 59);
+}
+
+.div-cell-first {
+     width: 50%;
+     /* height: 50%; */
+}
+
+.div-cell-second {
+    width: 33.33%;
+    /* height: 33,3%; */
+}

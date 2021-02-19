@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 10px;
+}
+
+h1, h2 {
+    margin: 10px 10px 5px 10px;
+}
+
+p {
+    line-height: 1.5;   
+}
+
+
+.footer {
+    margin: 5px 10px;
+    color: rgb(153, 147, 147);
+} 
+
+.introduction {
+    display: flex;
+    position: relative;
+    flex-direction: row-reverse;
+}
+
+.img-lion {
+margin: 10px;
+width: 50%;
+height: 50%;
+}
+
+h2 {
+    font-size: 20px;
+    color: rgb(153, 147, 147);
+}
+
+.lesson {
+    margin: 5px 10px;
+}
+
+li {
+    margin: 5px 0px;
+}
+
